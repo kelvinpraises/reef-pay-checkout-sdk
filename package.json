@@ -2,8 +2,9 @@
   "name": "reef-pay-checkout-sdk",
   "version": "1.0.0",
   "description": "an sdk for reef pay",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kelvinpraises/reef-pay-checkout-sdk/issues"
   },
-  "homepage": "https://github.com/kelvinpraises/reef-pay-checkout-sdk#readme"
+  "homepage": "https://github.com/kelvinpraises/reef-pay-checkout-sdk#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
