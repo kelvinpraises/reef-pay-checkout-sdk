@@ -1,0 +1,19 @@
+{
+  "name": "reef-pay-checkout-sdk",
+  "version": "1.0.0",
+  "description": "an sdk for reef pay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinpraises/reef-pay-checkout-sdk.git"
+  },
+  "author": "dreampiper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvinpraises/reef-pay-checkout-sdk/issues"
+  },
+  "homepage": "https://github.com/kelvinpraises/reef-pay-checkout-sdk#readme"
+}
