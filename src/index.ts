@@ -1,7 +1,7 @@
 const sdkVersion = "0.0.1";
 const url = "https://reef-pay.web.app.com/api/checkout-request";
 
-interface ReefpayStoreConfig {
+interface ReefpayShopConfig {
   apiKey: string;
   checkoutType: string;
   checkoutId: string;
@@ -16,10 +16,10 @@ interface CheckoutData {
 }
 
 /**
- * Initializes the store for checkout.
+ * Initializes the shop for checkout.
  * @returns {Function} Returns a callable function that accepts an itemId to trigger a checkout.
  */
-function initializeStore(config: ReefpayStoreConfig): Function {
+function initializeShop(config: ReefpayShopConfig): Function {
   return (itemId: string) => {
     const apiKey = config.apiKey;
     const checkoutId = config.checkoutId;
